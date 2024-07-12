@@ -1,6 +1,6 @@
 """Gunicorn *development* config file"""
 
-# Django WSGI application path in pattern MODULE_NAME:VARIABLE_NAME
+# Flask WSGI application path in pattern MODULE_NAME:VARIABLE_NAME
 wsgi_app = "wsgi:app"
 # The granularity of Error log outputs
 loglevel = "debug"

@@ -1,7 +1,7 @@
 from flask import Flask, jsonify
 
 
-debug = True
+debug = False
 
 # for local server
 app = Flask(__name__)
